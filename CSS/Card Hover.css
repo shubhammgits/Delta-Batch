@@ -1,0 +1,33 @@
+body{
+    background-color: #B1C29E;
+    text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 20px ;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px black;
+    transition: 0.3s;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desc{
+    padding: 0 2px 0 2px;
+    /* background-color: antiquewhite; */
+    font-weight: bold;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.card:hover{
+    box-shadow: 6px 8px 20px black ;
+}

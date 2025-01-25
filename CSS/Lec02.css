@@ -1,0 +1,127 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 , h3{
+    color: #B92B27;
+}
+
+#login{
+    background-color: white;
+
+}
+
+#signup{
+    background-color: #B92B27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+
+/* Adjacent sibling */
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue ;
+}
+
+
+/* Child combinator */
+
+div > input{
+    background-color: lightcyan;
+}
+
+
+
+/* attribute selector */
+
+input[type = "text"]{
+    color: green;
+}
+
+input[type = "password"]{
+    color: red;
+}
+
+input[type]{
+    text-decoration: underline ;
+}
+
+
+/* hover */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+
+/* active */
+
+button:active{
+    background-color: pink;
+}
+
+p:active{
+    color: purple;
+}
+
+
+/* checked */
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+/* nth of type */
+
+div:nth-of-type(2n){
+    background-color: orange;
+}
+
+
+/* ::first-letter */
+
+h1::first-letter{
+    color: black;
+}
+
+
+/* ::first-line */
+
+.end::first-line{
+    background-color: #B92B27;
+    color: white;
+}
+
+
+/* selection */
+
+.end::selection{
+    background-color: chartreuse;
+}
