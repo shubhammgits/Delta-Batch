@@ -1,0 +1,46 @@
+h2{
+    color:brown ;
+}
+
+span{
+    color: brown;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.card h3 , p{
+    margin: 10px;
+}
+
+#pets div{
+    border: 2px solid black;
+}
+
+h4{
+    text-align: right;
+    color: #3c787e;
+}
+
+
+@media (max-width: 376px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
