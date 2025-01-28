@@ -1,0 +1,67 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    color: white;
+    animation-name: fontAnimation , colorAnimate , widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ball{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 5px;
+    animation: ballAnimate 3s ease-in 0.5s infinite alternate ;
+}
+
+
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+    }
+
+    to{
+        width: 200px;
+        border-radius: 20px;
+        background-color: bisque  ;
+    }
+}
+
+
+@keyframes fontAnimation{
+    from {font-size: 20px;}
+
+    to {font-size: 40px}
+}
+
+@keyframes colorAnimate{
+    from {
+        color: yellow
+    }
+
+    to{
+        color: azure
+    }
+}
+
+
+@keyframes ballAnimate{
+    0% {
+        margin-left: 5px;
+    }
+
+    50% {
+        margin-left: 100px ;
+    }
+
+    100%{
+        margin-left: 200px;
+    }
+}
