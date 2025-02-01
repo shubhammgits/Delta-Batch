@@ -18,32 +18,33 @@
 
     <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
         </div>
-      </nav>
+    </nav>
 
     <br>
     <br>
@@ -122,33 +123,108 @@
         <div class="alert alert-success">Congratulations! Your score is 100/100</div>
 
 
-    <br>
-
-    <div class="alert alert-danger alert-dismissible fade show">Download failed. Please try again!
-        <button class="btn-close" data-bs-dismiss="alert"></button>
-    </div>
-
-    <br>
-    <hr>
-    <br>
-
-    <div class="container">
-        <h2>Grid System</h2>
         <br>
-        <div class="row">
-            <div class="col-4 bg-success">one</div>
-            <div class="col-8 bg-danger">two</div>
+
+        <div class="alert alert-danger alert-dismissible fade show">Download failed. Please try again!
+            <button class="btn-close" data-bs-dismiss="alert"></button>
         </div>
 
         <br>
+        <hr>
         <br>
 
-        <div class="row">
-            <div class="col-2 bg-success">one</div>
-            <div class="col-5 bg-danger">two</div>
-            <div class="col-5 bg-success">three</div>
+        <div class="container">
+            <h2>Grid System</h2>
+            <br>
+            <div class="row">
+                <div class="col-4 bg-success">one</div>
+                <div class="col-8 bg-danger">two</div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-md-2 bg-success">one</div>
+                <div class="col-md-5 bg-danger">two</div>
+                <div class="col-md-5 bg-success">three</div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 col-xl-4 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                    fugit fugiat, omnis voluptas adipisci magni culpa. Voluptates neque sapiente fugit aspernatur
+                    accusamus quo?</div>
+                <div class="col-md-6 col-xl-4  bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                    fugit fugiat, omnis voluptas adipisci magni culpa. Voluptates neque sapiente fugit aspernatur
+                    accusamus quo?</div>
+                <div class="col-md-6 col-xl-4  bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                    fugit fugiat, omnis voluptas adipisci magni culpa. Voluptates neque sapiente fugit aspernatur
+                    accusamus quo?</div>
+            </div>
         </div>
-    </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+        <div class="container">
+            <h3>Forms</h3>
+            <form>
+
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="abc@gmail.com">
+                    </div>
+    
+                    <div class="mb-3 col-md-6">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    </div>
+                </div>
+
+                <div class="row">
+    
+                    <div class="mb-3 col">
+                        <select class="form-select">
+                            <option selected>Select Your City</option>
+                            <option value="1">Delhi</option>
+                            <option value="2">Mumbai</option>
+                            <option value="3">Pune</option>
+                            <option value="4">Kolkata</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="normal mb-3">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">Agree (normal)</label>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" id="agreebs" class="form-check-input">
+                    <label for="agreebs" class="form-check-label">Agree (bootstrap) </label>
+                </div>
+
+                
+                <div class="mb-3 form-check">
+                    <input type="radio" id="radiobs" class="form-check-input">
+                    <label for="radiobs" class="form-check-label">Radio (bootstrap) </label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input type="checkbox"
+                    role="switch" id="switch" class="form-check-input">
+                    <label for="switch" class="form-check-label">Switch</label>
+                </div>
+            </form>
+        </div>
 
 
 
