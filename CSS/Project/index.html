@@ -20,9 +20,183 @@
 <body>
     <div class="main">
 
-        <div class="sidebar">sidebar</div>
-        <div class="main-content">main content</div>
-        <div class="music-player">music player</div>
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="stuffs/library_icon.png">
+                        <a href="#">Your library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus" id="plus"></i>
+                        <i class="fa-solid fa-arrow-right" id="right-arrow"></i>
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+
+                <div class="sticky-nav-arrows">
+                    <img class="left-arrow" src="stuffs/backward_icon.png">
+                    <img class="right-arrow hide" src="stuffs/forward_icon.png">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge install"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 7px;"></i>Install App</button>
+                    <button class="badge user"><i class="fa-regular fa-user"></i></button>
+
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="stuffs/Making memories.jpg" class="card-img">
+                    <p class="card-title">Karan Aujla</p>
+                    <p class="card-info">Making Memories</p>
+                </div>
+            </div>
+
+
+            <h2>Popular Artists</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="stuffs/arijit.jpg" class="card-img">
+                    <p class="card-title">Arijit Singh</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/diljit.jpg" class="card-img">
+                    <p class="card-title">Diljit Dosanjh</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/vishal.jpg" class="card-img">
+                    <p class="card-title">Vishal Mishra</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/badhshah.jpg" class="card-img">
+                    <p class="card-title">Badshah</p>
+                </div>
+            </div>
+
+            <h2>Popular Albums</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="stuffs/animal.jpg" class="card-img">
+                    <p class="card-title">Animal</p>
+                    <p class="card-info">Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/Glory.jpg" class="card-img">
+                    <p class="card-title">Glory</p>
+                    <p class="card-info">Yo Yo Honey Singh</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/moosetape.jpg" class="card-img">
+                    <p class="card-title">Moosetape</p>
+                    <p class="card-info">Sidhu Moose Wala</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/YJHD.jpg" class="card-img">
+                    <p class="card-title">Ye Jawani hai Deewani</p>
+                    <p class="card-info">Pritam</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/ghost.jpg" class="card-img">
+                    <p class="card-title">Ghost</p>
+                    <p class="card-info">Diljit Dosanjh</p>
+                </div>
+            </div>
+
+            <h2>Global Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="stuffs/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your weekly update of the most played tracks right...</p>
+                </div>
+
+                <div class="card">
+                    <img src="stuffs/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your weekly update of the most played tracks right...</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+
+
+
+        <div class="music-player">
+            <!-- <div class="music-playing">
+
+                <img src="stuffs/Making memories.jpg" class="music-img">
+                <div class="music-info">
+                    <p class="music-title">Softly</p>
+                    <p class="music-singer">Karan Aujla</p>
+                </div>
+
+                <div class="music-left-icons"></div>
+            </div> -->
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="stuffs/player_icon1.png" class="player-control-icon">
+                    <img src="stuffs/player_icon2.png" class="player-control-icon">
+                    <img src="stuffs/player_icon3.png" class="player-control-icon">
+                    <img src="stuffs/player_icon4.png" class="player-control-icon">
+                    <img src="stuffs/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+
+            <div class="controls"></div>
+        </div>
 
 
 
