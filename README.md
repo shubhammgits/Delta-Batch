@@ -1,2 +1,2 @@
 Delta 6.0 Batch <br>
-MERN STACK
+MERN STACK Web-Development
