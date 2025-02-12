@@ -48,3 +48,31 @@ console.log(colors.splice(0,1))
 console.log(colors)
 console.log(colors.splice(0 , 1 , "black" , "grey"))
 console.log(colors)
+
+
+let arr1 = [1]
+let arr2 = [1]
+console.log(arr1 === arr2)
+
+let arr = ['a' , 'b']
+let arrCopy = arr
+
+console.log(arr == arrCopy)
+
+arr.push('c')
+
+console.log(arrCopy)
+
+console.log(arrCopy.pop())
+
+
+
+//Constant Arrays
+
+const array = [1,2,3]
+array.push(4)
+console.log(array)
+
+
+// array = [1,2,3,4]
+// // console.log(array)
