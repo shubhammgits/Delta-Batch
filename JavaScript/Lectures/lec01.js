@@ -63,4 +63,33 @@ else if(marks >= 33) console.log("B")
 else if(marks < 33) console.log("F")
 
 
+//switch
 
+let color = "red"
+
+switch(color){
+    case "red" :
+        console.log("Stop")
+        break
+    
+    case "yellow" :
+        console.log("Get ready")
+        break
+
+    case "green":
+        console.log("GO!")
+        break
+    
+    default:
+        console.log("Broken Light")
+}
+
+// let firstNamee = prompt("Enter your first name :")
+// let lastNamee = prompt("Enter your last name :")
+
+// alert("Hello " + firstNamee + " " + lastNamee)
+
+let userName = prompt("Enter your name :")
+let userAge = prompt ("Enter your age :")
+let msg = `${userName} is ${userAge} years old`
+alert(msg)
