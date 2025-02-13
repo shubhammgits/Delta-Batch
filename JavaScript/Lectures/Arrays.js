@@ -76,3 +76,7 @@ console.log(array)
 
 // array = [1,2,3,4]
 // // console.log(array)
+
+
+let nestedArr = [ ["shubham" , 9.2] , ["anshul" , 8.8] , ["yash" , 6.7]]
+console.log(nestedArr)
