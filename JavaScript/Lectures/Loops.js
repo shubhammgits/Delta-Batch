@@ -17,8 +17,16 @@
 //     }
 // }
 
-let i=1
-while(i<=5){
-    console.log(i)
-    i++
+// let i=1
+// while(i<=5){
+//     console.log(i)
+//     i++
+// }
+
+
+
+let fruits = ["mango" , "apple" , "banana" , "grapes" , "orange" , "litchi"]
+
+for(let i=0 ; i<fruits.length ; i++){
+    console.log(i , fruits[i])
 }
