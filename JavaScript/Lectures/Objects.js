@@ -22,3 +22,6 @@ const post = {
 }
 
 console.log(post)
+console.log(post.username)
+console.log(post.followers)
+console.log(post.tags[1])
